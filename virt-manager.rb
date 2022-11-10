@@ -53,8 +53,8 @@ class VirtManager < Formula
   end
 
   resource "requests" do
-    url "https://pypi.io/packages/source/r/requests/requests-2.25.1.tar.gz"
-    sha256 "27973dd4a904a4f13b263a19c866c13b92a39ed1c964655f025f3f8d3d75b804"
+    url "https://files.pythonhosted.org/packages/a5/61/a867851fd5ab77277495a8709ddda0861b28163c4613b011bc00228cc724/requests-2.28.1.tar.gz"
+    sha256 "7c5599b102feddaa661c826c56ab4fee28bfd17f5abca1ebbe3e7f19d7c97983"
   end
 
   # virt-manager doesn't prompt for password on macOS unless --no-fork flag is provided
