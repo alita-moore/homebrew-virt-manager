@@ -43,8 +43,8 @@ class VirtManager < Formula
   end
 
   resource "chardet" do
-    url "https://pypi.io/packages/source/c/chardet/chardet-4.0.0.tar.gz"
-    sha256 "0d6f53a15db4120f2b08c94f11e7d93d2c911ee118b6b30a04ec3ee8310179fa"
+    url "https://files.pythonhosted.org/packages/0e/0c/72975a7c87c36e27ac492b630ba97d2203d62b01e5a6bfbd2f5bad35ed37/types-chardet-5.0.4.tar.gz"
+    sha256 "449a98338fa264ddee88dd3a8141989f0ae920bcc720460c54b9f4374a6c1bb3"
   end
 
   resource "urllib3" do
